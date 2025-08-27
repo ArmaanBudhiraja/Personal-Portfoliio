@@ -18,6 +18,7 @@ function Home_professional() {
                     <h1>ARMAAN</h1>
                     <h1>BUDHIRAJA</h1>
                     <h2 className='down_h2'>Creative Technologist</h2>
+                    <p></p>
                 </div>
             </div>
         </>
