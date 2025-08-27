@@ -1,4 +1,5 @@
 import './Home_professional.css'
+import FileIcon from './images/File.png'
 
 function Home_professional() {
     return (
@@ -18,9 +19,10 @@ function Home_professional() {
                     <h1>ARMAAN</h1>
                     <h1>BUDHIRAJA</h1>
                     <h2 className='down_h2'>Creative Technologist</h2>
-                    <div className='resume_button'>
-                        <img src="File.png" alt='resume_icon' className='resume_icon'/>
-                    </div>
+                    <button className='resume_button'>
+                        <img src={FileIcon} alt='resume_icon' className='resume_icon'/>
+                        <p className='Resume_text'>Resume</p>
+                    </button>
                 </div>
             </div>
         </>
