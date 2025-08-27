@@ -1,12 +1,29 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personalized portfolio website — designed and developed to showcase my **skills, projects, and creativity** in a professional yet aesthetic way.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Responsive design for all devices 📱💻
+- Smooth navigation with a custom navbar
+- Gradient backgrounds & clean typography
+- Highlighted sections: About, Skills, Projects, Contact
+- Minimal + modern aesthetic (with a little chaos 😅)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React.js** – component-based UI
+- **CSS3 / Tailwind (optional)** – styling & responsiveness
+- **Google Fonts** – typography (Bebas Neue, Fira Code, Menlo)
+- **GitHub Pages / Vercel / Netlify** – deployment
 
-## Expanding the ESLint configuration
+## 🎨 Design
+The design is inspired by **professional portfolios** but with a personal twist. I’ve experimented with:
+- Gradients & box shadows for depth
+- Playful typography choices
+- Chaotic/fun “Hire Me” section 🔥
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Deployment
+You can check it live here 👉 [Your Deployed Link]
+
+---
+
+💡 Built with passion, coffee, and way too many font experiments ☕😆
