@@ -117,7 +117,7 @@ h1{
 }
 .Button_line{
     margin-left:105px;
-    display:flex;
+    display:inline-flex;
 }
 .Hire_me{
     padding:10px;
@@ -137,9 +137,14 @@ h1{
     background-color: black;
     color:white;
     transition: 0.5s;
+    
 }
+.Hire_me:hover + .hire_msg {
+  display: block;
+}
+
 .hire_msg{
-    margin-left:110px;
+    display: none;
     background-color: grey;
     padding-left: 20px;
     width:60px;
@@ -147,8 +152,6 @@ h1{
     padding-right: 8px;
     border-radius: 8px;
     color:rgb(216, 216, 216);
-    
-    
 }
 .github_button{
     border-radius: 6px;

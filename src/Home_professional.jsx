@@ -25,7 +25,7 @@ function Home_professional() {
                             <img src={FileIcon} alt='resume_icon' className='resume_icon'/>
                             <p className='Resume_text'>Resume</p>
                         </button>
-                        <div className='Button_line'>
+                        <div className='Button_line'>    
                             <button className='Hire_me'>Hire Me</button>
                             <button className='github_button'>
                                 <img src='https://img.icons8.com/ios-glyphs/50/000000/github.png' alt='github_icon' className='github_icon'/>
@@ -37,6 +37,7 @@ function Home_professional() {
                         <div className='hire_msg'>
                             <p>plss 😭</p>
                         </div>
+                        
                     </div>
                     <div className='Photo'>
                         <img src={ProfPhoto} alt='Profile_Photo' className='Profile_photo'/>
