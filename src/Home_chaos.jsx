@@ -1,10 +1,6 @@
-import './Home_professional.css'
+import './Home_chaos.css'
 import FileIcon from './images/File.png'
 import ProfPhoto from './images/photo.jpg'
-import Home_chaos from './Home_chaos.jsx'
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-
 
 function Home_professional() {
     return (
@@ -16,8 +12,8 @@ function Home_professional() {
                     <a href="#">Skills</a>
                     <a href="#">Project</a> 
                     <a href="#">Contact</a>
-                    <span className='light'>Professional</span>
-                    <link to="/chaotic" className='dark'>Chaotic</link>
+                    <a href="#" className='light'>Professional</a>
+                    <a href="#" className='dark'>otic</a>
                 </div>
                 <div className='Main_Content'>
                     <div className='Content'>

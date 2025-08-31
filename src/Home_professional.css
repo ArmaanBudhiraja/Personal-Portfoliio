@@ -132,19 +132,9 @@ h1{
     font-size: 14px;
     margin-top:10px;
 }
-.Hire_me:hover{
-    cursor: pointer;
-    background-color: black;
-    color:white;
-    transition: 0.5s;
-    
-}
-.hire_msg {
-  display: block;
-}
 
 .hire_msg{
-
+    display: none;
     background-color: grey;
     padding-left: 20px;
     width:60px;
@@ -153,6 +143,16 @@ h1{
     padding-right: 8px;
     border-radius: 8px;
     color:rgb(216, 216, 216);
+}
+.Hire_me:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+    .hire_msg {
+        display: block;
+        transition: 0.5s;
+    }
 }
 .github_button{
     border-radius: 6px;
