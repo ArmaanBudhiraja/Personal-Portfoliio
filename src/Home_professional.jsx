@@ -16,8 +16,8 @@ function Home_professional() {
                     <a href="#">Skills</a>
                     <a href="#">Project</a> 
                     <a href="#">Contact</a>
-                    <span className='light'>Professional</span>
-                    <link to="/chaotic" className='dark'>Chaotic</link>
+                    <a href="#"  className='light'>Professional</a>
+                    <a href="#" className='dark'>Chaotic</a>
                 </div>
                 <div className='Main_Content'>
                     <div className='Content'>

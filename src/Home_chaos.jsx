@@ -2,7 +2,7 @@ import './Home_chaos.css'
 import FileIcon from './images/File.png'
 import ProfPhoto from './images/photo.jpg'
 
-function Home_professional() {
+function Home_chaos() {
     return (
         <>
             <div className = "Main" >
@@ -49,4 +49,4 @@ function Home_professional() {
 }
 
 
-export default Home_professional
+export default Home_chaos
