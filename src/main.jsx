@@ -5,6 +5,6 @@ import Home_chaos from './Home_chaos.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home_chaos />
+    <Home_professional />
   </StrictMode>,
 )
