@@ -12,8 +12,8 @@ function Home_chaos() {
                 <div className = "Navbar_c">
                     <a className='a_c' href="#">Home</a>
                     <a className='a_c' href="#">About</a>
-                    <a className='a_c' href="#">Skills</a>
-                    <a className='a_c' href="#">Project</a> 
+                    <a className='a_c' href="#">Gallery</a>
+                    <a className='a_c' href="#">Artwork</a> 
                     <a className='a_c' href="#">Contact</a>
                     <Link to="/" className='light_c'>Professional</Link>
                     <Link to ="/Home_chaos" className='dark_c'>Chaotic</Link>
