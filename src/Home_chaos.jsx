@@ -1,37 +1,37 @@
 import './Home_chaos.css'
 import FileIcon from './images/File.png'
-import ProfPhoto from './images/photo.jpg'
+import ProfPhoto from './images/chaotic.jpeg'
+import { Link } from 'react-router-dom';
+import GalleryIcon from './images/gallery.png'
+import InstaIcon from './images/insta.png'
 
 function Home_chaos() {
     return (
         <>
-            <div className = "Main" >
-                <div className = "Navbar">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Project</a> 
-                    <a href="#">Contact</a>
-                    <a href="#" className='light'>Professional</a>
-                    <a href="#" className='dark'>otic</a>
+            <div className = "Main_c" >
+                <div className = "Navbar_c">
+                    <a className='a_c' href="#">Home</a>
+                    <a className='a_c' href="#">About</a>
+                    <a className='a_c' href="#">Skills</a>
+                    <a className='a_c' href="#">Project</a> 
+                    <a className='a_c' href="#">Contact</a>
+                    <Link to="/" className='light_c'>Professional</Link>
+                    <Link to ="/Home_chaos" className='dark_c'>Chaotic</Link>
                 </div>
                 <div className='Main_Content'>
                     <div className='Content'>
-                        <h2>Hi, I am</h2>
-                        <h1>ARMAAN</h1>
-                        <h1>BUDHIRAJA</h1>
-                        <h2 className='down_h2'>Creative Technologist</h2>
-                        <button className='resume_button'>
-                            <img src={FileIcon} alt='resume_icon' className='resume_icon'/>
-                            <p className='Resume_text'>Resume</p>
+                        <h2 className='h2_c'>Hola, I am</h2>
+                        <h1 className='h1_c'>ARMAAN</h1>
+                        <h1 className='h1_c'>BUDHIRAJA</h1>
+                        <h2 className='down_h2_c'>Artist and Anchor</h2>
+                        <button className='gallery_button'>
+                            <img src={GalleryIcon} alt='gallery_icon' className='gallery_icon'/>
+                            <p className='gallery_text'>Gallery</p>
                         </button>
-                        <div className='Button_line'>    
-                            <button className='Hire_me'>Hire Me</button>
-                            <button className='github_button'>
-                                <img src='https://img.icons8.com/ios-glyphs/50/000000/github.png' alt='github_icon' className='github_icon'/>
-                            </button>
-                            <button className='linkedin_button'>
-                                <img src='https://img.icons8.com/ios-filled/50/000000/linkedin.png' alt='linkedin_icon' className='linkedin_icon'/>
+                        <div className='Button_line_c'>    
+                            <button className='follow_me'>Follow Me</button>
+                            <button className='insta_button'>
+                                <img src={InstaIcon} alt='insta_icon' className='insta_icon'/>
                             </button>
                         </div>
                         <div className='hire_msg'>
@@ -39,8 +39,8 @@ function Home_chaos() {
                         </div>
                         
                     </div>
-                    <div className='Photo'>
-                        <img src={ProfPhoto} alt='Profile_Photo' className='Profile_photo'/>
+                    <div className='Photo_c'>
+                        <img src={ProfPhoto} alt='Profile_Photo' className='Profile_photo_c'/>
                     </div>
                 </div>
             </div>

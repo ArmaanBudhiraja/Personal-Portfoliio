@@ -17,7 +17,7 @@
     margin: 0px;
     margin-left: 100px;
     margin-right: 100px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15) ;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.382) ;
 }
 a{
     color:black;
@@ -133,26 +133,29 @@ h1{
     margin-top:10px;
 }
 
-.hire_msg{
-    display: none;
-    background-color: grey;
-    padding-left: 20px;
-    width:60px;
-    margin-top: 0px;
-    margin-left: 110px;
-    padding-right: 8px;
-    border-radius: 8px;
-    color:rgb(216, 216, 216);
+.HireMeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.hire_msg {
+    margin-top: 0px;
+    background-color: grey;
+    padding: 0px;
+    border-radius: 6px;
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
 .Hire_me:hover{
     cursor: pointer;
     background-color: black;
     color:white;
     transition: 0.5s;
-    .hire_msg {
-        display: block;
-        transition: 0.5s;
-    }
 }
 .github_button{
     border-radius: 6px;
